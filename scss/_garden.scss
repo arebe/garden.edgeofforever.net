@@ -1,0 +1,19 @@
+html, body {
+	background-color: $color-primary-lt;
+
+	h1, h2, h3, h4, h5, h6 {
+		display: inline-block;
+		padding: auto 0.5rem;
+
+		&:hover {
+		  background-color: $heading-color-dk;
+		}
+	}
+}
+
+#trunk {
+	iframe {
+		width: 100%;
+
+	}
+}
