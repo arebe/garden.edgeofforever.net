@@ -9,11 +9,33 @@
   </head>
   <body>
     <header>
-      header stuff
+
     </header>
     <div class="row" id="branches">
-      <div class="large-12 columns">
-        <h1>branches</h1>
+      <div class="bg-img">
+        <div class="large-12 columns">
+        
+          <h1>branches</h1>
+
+          <div class="row">
+            <div class="large-4 medium-4 small-4 columns">
+              <div class="primary callout">
+                <p>Discuss the issues</p>
+              </div>
+            </div>
+            <div class="large-4 medium-4 small-4 columns">
+              <div class="primary callout">
+                <p>Meet our partners</p>
+              </div>
+            </div>
+            <div class="large-4 medium-4 small-4 columns">
+              <div class="primary callout">
+                <p>Join the community</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
       </div>
     </div>
 
@@ -25,32 +47,40 @@
 
     <div class="row" id="roots">
       <div class="large-12 columns">
-        <h1>roots</h1>
-        <ul class="orbit-example" data-orbit>
-          <li>
-            <img src="/assets/images/slide1.png" alt="slide 1" />
-            <div class="orbit-caption">
-              Caption One.
-            </div>
-          </li>
-          <li class="active">
-            <img src="/assets/images/slide2.png" alt="slide 2" />
-            <div class="orbit-caption">
-              Caption Two.
-            </div>
-          </li>
-          <li>
-            <img src="/assets/images/slide2.png" alt="slide 3" />
-            <div class="orbit-caption">
-              Caption Three.
-            </div>
-          </li>
-        </ul>
+        <div id="container">
+
+          <h1>roots</h1>
+
+          <div class="orbit" role="region" aria-label="Garden Roots" data-orbit>
+            <ul class="orbit-container">
+              <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+              <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+              <li class="is-active orbit-slide">
+                <img class="orbit-image" src="/assets/images/slide1.png" alt="Roots">
+                <figcaption class="orbit-caption">Slide 1</figcaption>
+              </li>
+              <li class="orbit-slide">
+                <img class="orbit-image" src="/assets/images/slide2.png" alt="Roots">
+                <figcaption class="orbit-caption">Slide 2</figcaption>
+              </li>
+              <li class="orbit-slide">
+                <img class="orbit-image" src="/assets/images/slide3.png" alt="Roots">
+                <figcaption class="orbit-caption">Slide 3</figcaption>
+              </li>
+            </ul>
+            <nav class="orbit-bullets">
+              <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
+              <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+              <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+            </nav>
+          </div>
+
+        </div>
       </div>
     </div>
     
     <footer>
-      footer stuff
+
     </footer>
 
 

@@ -2013,15 +2013,15 @@ select {
   .callout > :last-child {
     margin-bottom: 0; }
   .callout.primary {
-    background-color: #dcfbe1; }
+    background-color: #d0fad7; }
   .callout.secondary {
-    background-color: #fff2d9; }
+    background-color: #ffeecc; }
   .callout.success {
-    background-color: #fffbf4; }
+    background-color: #fffaf1; }
   .callout.warning {
-    background-color: #f4e6f9; }
+    background-color: #f1ddf7; }
   .callout.alert {
-    background-color: #f1c6fe; }
+    background-color: #ecb4fe; }
   .callout.small {
     padding-top: 0.5rem;
     padding-right: 0.5rem;
@@ -4243,9 +4243,34 @@ html, body {
   background-color: #ADF0B9; }
   html h1, html h2, html h3, html h4, html h5, html h6, body h1, body h2, body h3, body h4, body h5, body h6 {
     display: inline-block;
-    padding: auto 0.5rem; }
+    padding: auto 0.5rem;
+    color: #FFE7B8;
+    background-color: #BD7E00; }
     html h1:hover, html h2:hover, html h3:hover, html h4:hover, html h5:hover, html h6:hover, body h1:hover, body h2:hover, body h3:hover, body h4:hover, body h5:hover, body h6:hover {
-      background-color: #5F027D; }
+      background-color: #FFAA00; }
+
+#branches .bg-img {
+  background-image: url("/assets/images/branches.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 180px; }
+
+#branches p {
+  margin: 0 auto;
+  text-align: center; }
 
 #trunk iframe {
+  width: 100%; }
+
+#roots #container {
+  position: relative;
+  width: 100%;
+  height: auto; }
+
+#roots h1 {
+  position: absolute;
+  z-index: 4; }
+
+#roots .orbit {
+  position: absolute;
   width: 100%; }
